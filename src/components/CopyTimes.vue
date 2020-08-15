@@ -1,15 +1,17 @@
 <template>
-    <button class="button">{{ label }}</button>
+    <button class="copy-times-btn">
+        COPY SS TIMES
+    </button>
 </template>
 
 <script>
 export default {
-	props: ['label']
+
 }
 </script>
 
 <style>
-.button {
+.copy-times-btn {
 	box-shadow: 3px 2px 0px 0px #899599;
 	background:linear-gradient(to bottom, #c7d7ff 5%, #ebe0ca 100%);
 	background-color:#c7d7ff;
@@ -21,16 +23,17 @@ export default {
 	font-family:Trebuchet MS;
 	font-size: 0.9em;
 	font-weight:bold;
+	width: 200px;
 	padding:8px 18px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 	outline: none;
 }
-.button:hover {
+.copy-times-btn:hover {
 	background:linear-gradient(to bottom, #ebe0ca 5%, #c7d7ff 100%);
 	background-color:#ebe0ca;
 }
-.button:active {
+.copy-times-btn:active {
 	position:relative;
 	top:1px;
 }

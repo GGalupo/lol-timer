@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <img class="logo" src="../assets/logo.png" alt="Logo">
+        <img class="logo" src="../assets/imgs/logo.png" alt="Logo">
         <SetCurrentGameTime />
         <CurrentGameTime />
         <img class="back-to-menu" src="../assets/imgs/back.png" alt="Back to the menu arrow">
@@ -23,24 +23,19 @@ export default {
 .header {
     grid-area: header;
     display: flex;
+    align-items: center;
 }
 
 .back-to-menu {
-    /* position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 40px; */
     margin-left: auto;
-    align-self: center;
     width: 40px;
     margin-right: 15px;
 }
 
 .logo {
-    align-self: center;
     margin-right: auto;
     margin-left: 25px;
-    width: 70px;
+    width: 50px;
 }
 
 .back-to-menu:hover {
