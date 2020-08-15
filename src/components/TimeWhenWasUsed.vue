@@ -1,6 +1,6 @@
 <template>
     <div class="time-when-used-container">
-        <div class="time-when-used-text">or game time when used</div>
+        <span class="time-when-used-text">or game time when used</span>
         <input type="text">
         <i class="fa fa-info-circle tooltip" aria-hidden="true">
             <span class="tooltiptext">Press enter after typing the time.</span>
@@ -32,14 +32,10 @@ export default {
 input {
     width: 20%;
     margin-right: 10px;
-    /* margin-left: auto; */
-    /* margin-right: 10px; */
 }
 
 .tooltip {
   position: relative;
-  /* display: inline-block; */
-  /* margin-left: auto; */
   margin-right: 10px;
 }
 
@@ -53,7 +49,6 @@ input {
   border-radius: 6px;
   padding: 5px 0;
   
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
   bottom: 100%;

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        
+    <div class="current-game-time">
+
     </div>
 </template>
 
