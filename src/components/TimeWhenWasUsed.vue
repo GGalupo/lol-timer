@@ -18,24 +18,29 @@ export default {
 .time-when-used-text {
     font-size: 0.7em;
     color: #fff;
-    padding: 13px 5px;
+    padding: 13px;
     text-shadow: 1px 1px #c50404;
+    margin-right: auto;
 }
 
 .time-when-used-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
 input {
     width: 20%;
     margin-right: 10px;
+    /* margin-left: auto; */
+    /* margin-right: 10px; */
 }
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
+  /* margin-left: auto; */
+  margin-right: 10px;
 }
 
 .tooltip .tooltiptext {
