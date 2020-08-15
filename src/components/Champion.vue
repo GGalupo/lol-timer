@@ -11,6 +11,5 @@ export default {
 <style>
 .champion {
     width: 100%;
-    border-bottom: 2px solid rgb(216, 176, 143);
 }
 </style>

@@ -29,7 +29,8 @@ body, html {
 }
 
 #app {
-  background: linear-gradient(to right, #42275a, #734b6d);
+  /* background: linear-gradient(to right, #42275a, #734b6d); */
+  background-color: #42275abb;
   height: 100vh;
 
   display: grid;
