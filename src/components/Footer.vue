@@ -47,12 +47,12 @@ export default {
   margin-right: 6px;
 }
 
-i {
+a i {
   margin: 0 8px;
   color: black;
 }
 
-i:hover {
+a i:hover {
   cursor: pointer;
   opacity: 0.6;
 }
