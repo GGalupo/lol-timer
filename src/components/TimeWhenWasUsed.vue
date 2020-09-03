@@ -1,10 +1,12 @@
 <template>
     <div class="time-when-used-container">
-        <span class="time-when-used-text">or game time when used</span>
-        <input type="text">
-        <i class="fa fa-info-circle tooltip" aria-hidden="true">
+        <span class="time-when-used-text">or</span>
+        <div>
+          <input type="text">
+          <i class="fa fa-info-circle tooltip" aria-hidden="true">
             <span class="tooltiptext">Press enter after typing the time.</span>
-        </i>
+          </i>
+        </div>
     </div>
 </template>
 
@@ -16,17 +18,16 @@ export default {
 
 <style>
 .time-when-used-text {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #fff;
-    padding: 13px;
+    padding: 8px;
     text-shadow: 1px 1px #c50404;
     margin-right: auto;
 }
 
 .time-when-used-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 input {

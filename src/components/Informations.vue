@@ -1,9 +1,6 @@
 <template>
-    <div>
-        <div class="spell-info">
-            <Spell />
-            <SpellWasUsed />
-        </div>
+    <div class="informations">
+        <Spell />
         <div class="buttons-container">
             <Button label="5s" />
             <Button label="10s" />
@@ -18,13 +15,11 @@
 import Button from './Button'
 import Spell from './Spell'
 import Timers from './Timers'
-import SpellWasUsed from './SpellWasUsed'
 import TimeWhenWasUsed from './TimeWhenWasUsed'
 export default {
     components: {
         Spell,
         Timers,
-        SpellWasUsed,
         TimeWhenWasUsed,
         Button
     }
@@ -32,15 +27,13 @@ export default {
 </script>
 
 <style>
-.spell-info {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
 .buttons-container {
     display: flex;
     justify-content: space-around;
     margin: 7px;
+}
+
+.informations {
+    height: 100%;
 }
 </style>
